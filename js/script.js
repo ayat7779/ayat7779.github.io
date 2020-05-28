@@ -11,7 +11,7 @@ $('.page-scroll').on('click', function(e) {
 	$('html, body').animate({
 		scrollTop: elemenTujuan.offset().top - 50
 
-	 }, 1250, 'easeOutBounce'); //swing dan linear
+	 }, 1250, 'easeOutQuad'); //swing dan linear
 
 	// bisa divariasikan di jquery easing gsgd.co.uk
 
